@@ -16,8 +16,8 @@ function Navbar() {
     return (
         <nav className="sticky top-0 bg-gray-900 text-white border-b border-gray-700 z-50">
             <div className="mx-auto px-14 py-5 flex justify-between items-center">
-                <a href="/" className="text-2xl font-bold">Personal</a>
-                <img width={25} height={25} src={'src/assets/sun.svg'} alt="Sun"/>
+                <a href="/public" className="text-2xl font-bold">Personal</a>
+                <img width={25} height={25} src={'src/assets/Moon.svg'} alt="Sun"/>
             </div>
         </nav>
     );
