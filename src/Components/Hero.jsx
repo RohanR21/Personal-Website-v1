@@ -9,15 +9,15 @@ function Hero() {
                         through positivity!</p>
                     <div className='flex space-x-8 pt-7'>
                         <button
-                            className='bg-slate-100 text-slate-900 text-xl font-bold py-0.5 px-12 rounded tracking-wider'>Projects
+                            className='bg-slate-100 text-slate-900 text-xl font-bold py-0.5 px-12 rounded-md tracking-wider'>Projects
                         </button>
                         <button
-                            className='bg-slate-950 text-slate-100 text-xl font-bold py-0.5 px-12 rounded border border-gray-700 tracking-wider'>Contact
+                            className='bg-slate-950 text-slate-100 text-xl font-bold py-0.5 px-12 rounded-md border border-gray-700 tracking-wider'>Contact
                         </button>
                     </div>
                 </div>
-                <div className="w-72 h-72 rounded-full overflow-hidden scale-125 border-2 border-gray-700">
-                    <img src="src/assets/Profile.jpg" alt="Portrait" className="w-full h-full object-cover "/>
+                <div className="w-72 h-72 rounded-full overflow-hidden scale-125 border-2 border-gray-700 shadow-xl">
+                    <img src="src/assets/Profile.jpg" alt="Portrait" className="w-full h-full object-cover"/>
                 </div>
             </div>
 
