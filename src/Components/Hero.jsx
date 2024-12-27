@@ -1,4 +1,3 @@
-import {Profile} from './public/Profile.jpg'
 
 function Hero() {
     const scrollToProjects = () => {
@@ -41,7 +40,7 @@ function Hero() {
                     </div>
                 </div>
                 <div className="w-72 h-72 rounded-full overflow-hidden scale-125 border-2 border-gray-700 shadow-xl">
-                    <img src={Profile} alt="Portrait" className="w-full h-full object-cover"/>
+                    <img src='/Profile.jpg' alt="Portrait" className="w-full h-full object-cover"/>
                 </div>
             </div>
 
