@@ -6,7 +6,7 @@ function About() {
     return (
         <div className='bg-gray-900'>
             <div className='flex justify-center -mt-9 mb-9 animate-bounce'>
-                <img src='src/assets/Arrow.svg'/>
+                <img src='public/Arrow.svg'/>
             </div>
             <h1 className='text-slate-50 flex justify-center text-4xl font-semibold tracking-wider'>About Me</h1>
             <div className='px-36 py-5'>
@@ -19,7 +19,7 @@ function About() {
             </div>
             <div className='pb-4'>
                 <div className='flex items-center px-36 space-x-3 py-3'>
-                    <img src='src/assets/Code.svg' alt='Profile'/>
+                    <img src='public/Code.svg' alt='Profile'/>
                     <h1 className='text-2xl font-bold text-slate-50 tracking-wider'>Skills & Technology</h1>
                 </div>
                 <div>
@@ -33,7 +33,7 @@ function About() {
                 </div>
             </div>
             <div className='flex items-center px-36 space-x-6 py-3'>
-                <img src='src/assets/Education.svg' alt='Profile'/>
+                <img src='public/Education.svg' alt='Profile'/>
                 <h1 className='text-2xl font-bold text-slate-50 tracking-wider'>Education</h1>
             </div>
             <div className='px-36 py-3'>
