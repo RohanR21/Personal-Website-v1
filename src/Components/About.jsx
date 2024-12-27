@@ -1,6 +1,13 @@
+
+
 function About() {
+
+
     return (
         <div className='bg-gray-900'>
+            <div className='flex justify-center -mt-9 mb-9 animate-bounce'>
+                <img src='src/assets/Arrow.svg'/>
+            </div>
             <h1 className='text-slate-50 flex justify-center text-4xl font-semibold tracking-wider'>About Me</h1>
             <div className='px-36 py-5'>
                 <div className='bg-gray-800 border-gray-700 border py-5 rounded-xl px-12 tracking-wider'>
@@ -17,11 +24,11 @@ function About() {
                 </div>
                 <div>
                     <ul className='flex space-x-3 px-36 py-3'>
-                        <li className='border-gray-700 border rounded bg-gray-800 px-2 font-medium text-slate-50'>Java</li>
-                        <li className='border-gray-700 border rounded bg-gray-800 px-2 font-medium text-slate-50'>Python</li>
-                        <li className='border-gray-700 border rounded bg-gray-800 px-2 font-medium text-slate-50'>JavaScript</li>
-                        <li className='border-gray-700 border rounded bg-gray-800 px-2 font-medium text-slate-50'>TypeScript</li>
-                        <li className='border-gray-700 border rounded bg-gray-800 px-2 font-medium text-slate-50'>React</li>
+                        <li className='border-gray-700 border-2 bg-gray-800 px-4 py-1 text-base rounded-md text-slate-50'>Java</li>
+                        <li className='border-gray-700 border-2 bg-gray-800 px-4 py-1 text-base rounded-md text-slate-50'>Python</li>
+                        <li className='border-gray-700 border-2 bg-gray-800 px-4 py-1 text-base rounded-md text-slate-50'>JavaScript</li>
+                        <li className='border-gray-700 border-2 bg-gray-800 px-4 py-1 text-base rounded-md text-slate-50'>TypeScript</li>
+                        <li className='border-gray-700 border-2 bg-gray-800 px-4 py-1 text-base rounded-md text-slate-50'>React</li>
                     </ul>
                 </div>
             </div>
