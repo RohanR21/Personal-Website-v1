@@ -24,12 +24,12 @@ function Card(props) {
                 <div className="flex space-x-4 pt-2">
                     <button
                         className="flex items-center space-x-2 bg-gray-800 px-4 py-2 text-sm rounded-md hover:bg-gray-700">
-                        <img src='public/More.svg'/>
+                        <img src='/More.svg'/>
                         <span>More</span>
                     </button>
                     <button
                         className="flex items-center space-x-2 bg-gray-800 px-4 py-2 text-sm rounded-md hover:bg-gray-700">
-                        <img src='public/Github.svg'/>
+                        <img src='/Github.svg'/>
                         <span>Code</span>
                     </button>
                 </div>
